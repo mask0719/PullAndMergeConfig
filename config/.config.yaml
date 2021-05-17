@@ -33,8 +33,16 @@ pull-proxy-source:
   #  按照下面的输入方式填写
   #  - name: name
   #    url: url
-
-
+     - name:no1
+       url:http://8.136.5.236/clash/config
+     - name:no2
+       url:https://pub-api-1.bianyuan.xyz/sub?target=clash&url=http%3A%2F%2F120.92.132.166%3A8888%2Fdown%2FQBXFCG5vwkzr&insert=false
+     - name:no3
+       url:https://hello.stgod.com/clash/config
+     - name:no4
+       url:https://suo.yt/JMvfwOT
+     - name:no5
+       url: https://github.com/ssrsub/ssr/raw/master/Clash.yml
 # 下面的参数都会覆盖或合并到最终生成的配置文件里面去
 
 # HTTP 代理端口
